@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+ <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Launch Demo modal</button>
+
+		
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-lg modal-dialog">
+      <div class="modal-content" >
+        
+  <!-- Modal body -->
+<div class="container p-3 my-0 text-white" style = "background-color:rgb(0, 175, 170)">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+<h3 style="font-size: 36px; font-family: &quot;Maven Pro&quot; line-height: 16px; text-align: center;">Meeting Room Booking</h3>
+</div>
+
+<div class="container p-3 my-3">
+	<p style="text-align: center; line-height: 14px;"><span style="font-size: 26px;">
+	<span style="font-family: &quot;Open Sans&quot;; font-weight: 600; font-style: italic; color: rgb(0, 175, 170);">
+	<sup>We will confirm your booking with the contact details below. No payment</sup>
+	</span>
+	</p>
+	
+	<p style="text-align: center; line-height: 14px;"><span style="font-size: 26px;">
+	<span style="font-family: &quot;Open Sans&quot;; font-weight: 600; font-style: italic; color: rgb(0, 175, 170);">
+	<sup>required until your booking is confirmed.</sup></span></p>
+</div>
+
+<div class="container p-3 my-3">
+   <div class="row">
+      <div class="col">
+	   <label><b>Email:</b></label>       
+	   <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="col">
+	   <label><b>Password:</b></label>
+        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+   	  </div>
+    </div></br>
+	
+	
+		
+    <div class="row">
+	  <div class="col">
+	   <label><b>Phone Number:</b></label>
+        <input type="tel" class="form-control" placeholder="123-45-678">
+      </div>
+      <div class="col">
+      <label for="exampleFormControlSelect1"><b>Location:</b></label>
+      <select class="form-control" id="exampleFormControlSelect1">
+      <option>Karachi</option>
+      <option>Islamabad</option>
+      <option>Lahore</option>
+      <option>Peshawar</option>
+      <option>China</option>
+      </select>
+      </div>
+	</div></br>
+
+	  	
+    <div class="row">
+	  <div class="col">
+	   <label><b>Date of Meeting:</b></label>
+        <input type="datetime" class="form-control" placeholder="11-11-2000">
+      </div>
+      <div class="col">
+      <label for="exampleFormControlSelect1"><b>Number of People:</b></label>
+      <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      </select>
+      </div>
+	</div></br>
+	
+	 <div class="row">
+	  <div class="col">
+      <label for="exampleFormControlSelect1"><b>FROM:</b></label>
+      <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      </select>
+      </div>
+      <div class="col">
+      <label for="exampleFormControlSelect1"><b>TO:</b></label>
+      <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      </select>
+      </div>
+	</div></br>
+	  
+	<div class="row">
+     <div class="col">
+	 <label><b>Header:</b></label>
+     <input type="text" class="form-control" placeholder="Header">
+     </div>
+	 <div class="col">
+     <label for="exampleFormControlTextarea1"><b>Example textarea:</b></label>
+     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+	</div></br>
+	
+	
+	<div class="row">
+	
+	<div class="col">
+    <label><b>Gender:</b></label></br>
+	<div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+    <label class="form-check-label" for="inlineRadio1">Male</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+    <label class="form-check-label" for="inlineRadio2">Female</label>
+    </div>
+	</div>
+	
+	
+	<div class="col">
+	<label><b>Gender:</b></label></br>
+	<div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+    <label class="form-check-label" for="inlineCheckbox1">Male</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+    <label class="form-check-label" for="inlineCheckbox2">Female</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+    <label class="form-check-label" for="inlineCheckbox3">Both (disabled)</label>
+    </div>
+	</div>
+	
+	</div>
+	</br>
+	
+    <button type="submit" class="btn btn-primary mt-3" style = "float:right">Submit</button>
+</div>
+</div>
+		
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

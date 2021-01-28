@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+  
+    <!--LEFT TAG-->
+    <div class="col-sm-6">
+	<img src = "img.jpg" style = "width:100%">
+	</div>
+    
+	<!--RIGHT TAG-->
+	<div class="col-sm-6">
+    <h2 style=" font-family: &quot;Maven Pro&quot; line-height: 10px; text-align: center;">Fill out your details to recieve a quote</h2></br>
+	<p style="text-align: center; line-height: 12px;"><span style="font-size: 26px;">
+	<span style="font-family: &quot;Open Sans&quot;; font-weight: 600; font-style: italic; color: rgb(250, 170, 74);">
+	<sup>Don't miss the special quotation</sup>
+	</span>
+	</p>
+	
+	
+	   <label><b>Name:</b></label>       
+	   <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+	   
+	   <label><b>Email:</b></label>       
+	   <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+   
+	   <label><b>Password:</b></label>
+        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+	  
+	   <label><b>Phone Number:</b></label>
+        <input type="tel" class="form-control" placeholder="123-45-678">
+		
+      <label for="exampleFormControlSelect1"><b>Location:</b></label>
+      <select class="form-control" id="exampleFormControlSelect1">
+      <option>Karachi</option>
+      <option>Islamabad</option>
+      <option>Lahore</option>
+      <option>Peshawar</option>
+      <option>China</option>
+      </select>
+	  
+	  <label for="exampleFormControlSelect1"><b>Number of Stations:</b></label>
+      <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      </select>
+      
+	  </br>
+	  
+    <button type="submit" class="btn btn-primary btn-block btn-lg mt-3">Get My Quote</button>
+	</div>
+  
+  </div>
+</div>
+
+</body>
+</html>
